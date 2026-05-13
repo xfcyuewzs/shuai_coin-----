@@ -1,0 +1,64 @@
+name: Quality Gate
+
+on:
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    name: Unit & Integration Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Check Database Schema Sync
+        run: |
+          export FLASK_APP=run:app
+          flask db upgrade
+          flask db migrate --check || (echo "❌ Model changes detected without migrations!" && exit 1)
+      - name: Run tests with coverage
+        run: |
+          pytest --cov=. --cov-report=xml
+      - name: Upload coverage to PR
+        uses: orgoro/coverage@v3
+        with:
+          path: coverage.xml
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  security:
+    name: Security Scan (Trivy)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'shuai-coin:${{ github.sha }}'
+          format: 'table'
+          exit-code: '1'
+          ignore-unfixed: true
+          vuln-type: 'os,library'
+          severity: 'CRITICAL,HIGH'
+
+  license:
+    name: License Scan (FOSSA)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: FOSSA Scan
+        uses: fossas/fossa-action@main
+        with:
+          api-key: ${{ secrets.FOSSA_API_KEY }}
+
+  build:
+    name: Docker Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build Docker image
+        run: docker build -t shuai-coin:${{ github.sha }} .

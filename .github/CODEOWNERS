@@ -1,0 +1,24 @@
+# 强制执行代码拥有者审核规则
+
+# 测试、脚本、迁移归 QA 团队
+tests/      @qa-team
+scripts/    @qa-team
+migrations/ @qa-team
+
+# 监控与安全归 SRE 团队
+monitor/    @sre-team
+security/   @sre-team
+
+# 钱包、CLI、插件归核心引擎团队
+wallet/     @core-team
+cli/        @core-team
+plugins/    @core-team
+
+# 缓存、分析、通知归后端业务团队
+cache/       @backend-team
+analytics/   @backend-team
+notifications/ @backend-team
+
+# 文档与国际化归文档团队
+docs/       @doc-team
+i18n/       @doc-team

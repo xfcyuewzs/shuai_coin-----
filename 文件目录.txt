@@ -1,0 +1,22 @@
+shuai_coin/                  # 项目根目录
+├── config/                  # 配置中心（所有硬编码配置集中管理）
+│   ├── __init__.py          # 配置导出入口
+│   └── settings.py          # 全局配置（难度、手续费、数据库路径等）
+├── core/                    # 区块链核心模块（无Web依赖，纯逻辑）
+│   ├── __init__.py
+│   ├── blockchain.py        # 挖矿、区块创建、难度调整（核心逻辑）
+│   ├── contract.py          # 智能合约引擎（测试3.py的ShuaiVM）
+│   └── utils.py             # 公共工具（地址脱敏、哈希计算、余额计算）
+├── db/                      # 数据库模块（模型+初始化）
+│   ├── __init__.py          # 数据库实例导出
+│   └── models.py            # 合并所有数据库模型（User/Block/合约状态等）
+├── p2p/                     # P2P网络模块（测试3.py独有，可选）
+│   ├── __init__.py
+│   └── network.py           # 节点管理、链冲突解决、P2P同步
+├── web/                     # Web层（Flask相关，仅负责请求/响应）
+│   ├── __init__.py          # Flask应用初始化、蓝图注册
+│   ├── auth.py              # 登录/注册路由（用户认证）
+│   ├── routes.py            # 业务路由（挖矿、转账、区块浏览器）
+│   └── templates.py         # HTML模板（统一管理所有页面模板）
+├── __init__.py              # 项目包标识
+└── run.py                   # 启动入口（一键运行Flask应用）

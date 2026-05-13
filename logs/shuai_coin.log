@@ -1,0 +1,415 @@
+[2026-04-30 16:19:11,148] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.154.16:5000
+[2026-04-30 16:19:11,148] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-30 16:19:11,149] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:19:11,889] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:19:11,891] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:19:24,614] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:24] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:19:25,520] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:25] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:27,011] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:27] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:19:29,202] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:19:29] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:19:29,779] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:19:29] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:33,212] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:33] "[33mGET /explorer HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:38,474] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:19:38] "[33mGET /spa HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:43,711] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:43] "[32mGET /mine HTTP/1.1[0m" 302 -
+[2026-04-30 16:19:43,723] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:43] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:19:52,813] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:52] "[33mGET /admin HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:54,583] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:54] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:19:54,700] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:54] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:55,853] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:55] "[33mGET /spa HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:57,417] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:57] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:19:58,734] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:19:58] "[33mGET /admin HTTP/1.1[0m" 404 -
+[2026-04-30 16:20:00,385] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:20:00] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:20:10,507] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:20:10] "[33mGET /spa HTTP/1.1[0m" 404 -
+[2026-04-30 16:20:17,213] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:20:17] "[33mGET /history HTTP/1.1[0m" 404 -
+[2026-04-30 16:20:19,086] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:20:19] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:20:19,772] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:20:19] "[33mGET /explorer HTTP/1.1[0m" 404 -
+[2026-04-30 16:20:21,264] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:20:21] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:24:36,057] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.154.16:5000
+[2026-04-30 16:24:36,057] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-30 16:24:36,058] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:24:36,759] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:24:36,762] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:25:19,354] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\������\\work\\shuai_coin\\core\\logging.py', reloading
+[2026-04-30 16:25:19,489] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:25:20,192] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode)
+[2026-04-30 16:25:20,208] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:25:20,210] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:25:41,718] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode)
+[2026-04-30 16:25:41,718] INFO in test_unicode_logging: 🔥 Testing Unicode Support: 🚀 Blockchain Node is Running
+[2026-04-30 16:28:02,565] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\core\\logging.py', reloading
+[2026-04-30 16:28:02,765] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:28:03,567] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:28:03,584] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:28:03,586] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:28:16,899] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:28:16,900] INFO in test_logging_unicode: 测试中文日志输出
+[2026-04-30 16:28:16,912] INFO in test_logging_unicode: 🚀 Testing Rocket Emoji
+[2026-04-30 16:28:16,924] INFO in test_logging_unicode: Special Symbols: ¥ © ® ™ 🌍 🔒
+[2026-04-30 16:28:20,592] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:20] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:20,803] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:20] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:23,184] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:23] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:24,173] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:24] "GET /explorer HTTP/1.1" 200 -
+[2026-04-30 16:28:25,032] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:25] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:25,041] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:25] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:25,340] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:25] "GET /history HTTP/1.1" 200 -
+[2026-04-30 16:28:26,147] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:26] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:26,681] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:26] "GET /spa HTTP/1.1" 200 -
+[2026-04-30 16:28:27,851] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:27] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:29,372] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:29] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:30,157] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:30] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+[2026-04-30 16:28:30,259] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:30] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-04-30 16:28:30,273] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:30] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-04-30 16:28:30,412] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:30] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-04-30 16:28:31,038] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:31] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:31,048] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:31] "GET /?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js HTTP/1.1" 200 -
+[2026-04-30 16:28:31,056] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\tests\\test_logging_unicode.py', reloading
+[2026-04-30 16:28:31,266] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:28:32,060] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:28:32,076] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:28:32,078] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:28:33,729] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:33] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:34,825] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:34] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+[2026-04-30 16:28:35,214] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:35] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-04-30 16:28:35,217] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:35] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:28:35,399] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:35] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:35,415] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:35] "GET /?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js HTTP/1.1" 200 -
+[2026-04-30 16:28:37,390] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:28:37] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:38,973] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:38] "GET /spa HTTP/1.1" 200 -
+[2026-04-30 16:28:39,249] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:39] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:39,256] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:39] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:41,490] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:41] "GET /history HTTP/1.1" 200 -
+[2026-04-30 16:28:41,606] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:41] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:41,614] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:41] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:44,154] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:44] "GET /explorer HTTP/1.1" 200 -
+[2026-04-30 16:28:44,266] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:44] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:28:44,277] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:28:44] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:28:48,369] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\tests\\test_logging_unicode.py', reloading
+[2026-04-30 16:28:48,579] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:28:49,315] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:28:49,331] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:28:49,334] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:30:08,213] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:08] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+[2026-04-30 16:30:08,230] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:08] "GET /apidocs/ HTTP/1.1" 200 -
+[2026-04-30 16:30:08,521] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:08] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+[2026-04-30 16:30:08,551] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:08] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+[2026-04-30 16:30:08,554] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:08] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+[2026-04-30 16:30:08,554] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:08] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+[2026-04-30 16:30:09,188] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:09] "GET /apispec_1.json HTTP/1.1" 200 -
+[2026-04-30 16:30:09,201] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:09] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+[2026-04-30 16:30:09,278] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:09] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:30:09,279] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:09] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+[2026-04-30 16:30:09,281] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:09] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+[2026-04-30 16:30:09,282] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:09] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+[2026-04-30 16:30:25,103] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:25] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:30:25,410] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:25] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:25,410] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:25] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:25,412] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:25] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:27,187] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:30:27,189] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:27,189] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:27,189] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:27,451] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:30:27,499] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:27,500] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:30:27,501] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:30:27] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:34:33,402] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\web\\templates.py', reloading
+[2026-04-30 16:34:33,559] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:34:34,320] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:34:34,338] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:34:34,339] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:34:53,705] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\tests\\test_web.py', reloading
+[2026-04-30 16:34:53,881] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:34:55,208] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:34:55,250] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:34:55,253] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:36:02,313] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\web\\templates.py', reloading
+[2026-04-30 16:36:02,472] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:36:03,218] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:36:03,233] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:36:03,236] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:36:30,250] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:36:30,274] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.154.16:5000
+[2026-04-30 16:36:30,274] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-30 16:36:30,276] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:36:31,004] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:36:31,019] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:36:31,022] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:36:37,095] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:37] "GET /apidocs/ HTTP/1.1" 200 -
+[2026-04-30 16:36:37,172] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:37] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-04-30 16:36:37,453] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:37] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:36:37,471] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:37] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:36:38,673] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:38] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:36:39,169] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:39] "GET /apispec_1.json HTTP/1.1" 200 -
+[2026-04-30 16:36:39,270] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:39] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:36:39,275] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:39] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:36:39,275] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:39] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:36:39,276] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:39] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:36:41,601] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:41] "GET /apispec_1.json HTTP/1.1" 200 -
+[2026-04-30 16:36:54,431] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:54] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:36:54,633] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:36:54] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:36:56,384] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:36:56] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:36:56,613] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:36:56] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:36:57,936] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:36:57] "GET /explorer HTTP/1.1" 200 -
+[2026-04-30 16:36:58,062] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:36:58] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:36:58,071] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:36:58] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:36:58,927] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:36:58] "GET /history HTTP/1.1" 200 -
+[2026-04-30 16:36:59,100] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:36:59] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:00,418] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:00] "GET /spa HTTP/1.1" 200 -
+[2026-04-30 16:37:01,270] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:01] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:02,362] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:02] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:02,971] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:02] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:37:03,008] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:03] "[31m[1mGET /admin/api/users HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:03,009] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:03] "[31m[1mGET /admin/api/config HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:03,010] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:03] "[31m[1mGET /admin/api/logs HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:04,550] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:04] "GET /login HTTP/1.1" 200 -
+[2026-04-30 16:37:05,217] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:05] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:12,068] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-04-30 16:37:12,081] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:12] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:13,704] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:13] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:37:13,741] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:13] "[31m[1mGET /admin/api/users HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:13,743] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:13] "[31m[1mGET /admin/api/logs HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:13,744] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:13] "[31m[1mGET /admin/api/config HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:15,530] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:15] "GET /login HTTP/1.1" 200 -
+[2026-04-30 16:37:15,780] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:15] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:16,710] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:16] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:37:16,828] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:16] "[31m[1mGET /admin/api/logs HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:16,830] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:16] "[31m[1mGET /admin/api/users HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:16,831] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:16] "[31m[1mGET /admin/api/config HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:18,385] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:18] "GET /login HTTP/1.1" 200 -
+[2026-04-30 16:37:19,230] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:19] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:19,588] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:19] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:37:19,619] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:19] "[31m[1mGET /admin/api/users HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:19,620] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:19] "[31m[1mGET /admin/api/logs HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:19,622] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:19] "[31m[1mGET /admin/api/config HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:21,155] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:21] "GET /login HTTP/1.1" 200 -
+[2026-04-30 16:37:21,985] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:21] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:22,251] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:22] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:37:22,283] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:22] "[31m[1mGET /admin/api/users HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:22,284] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:22] "[31m[1mGET /admin/api/config HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:22,284] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:22] "[31m[1mGET /admin/api/logs HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:24,080] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:24] "GET /login HTTP/1.1" 200 -
+[2026-04-30 16:37:25,323] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:25] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:37:59,191] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:59] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:37:59,231] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:59] "[31m[1mGET /admin/api/logs HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:59,233] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:59] "[31m[1mGET /admin/api/users HTTP/1.1[0m" 401 -
+[2026-04-30 16:37:59,235] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:37:59] "[31m[1mGET /admin/api/config HTTP/1.1[0m" 401 -
+[2026-04-30 16:38:00,880] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:38:00] "GET /login HTTP/1.1" 200 -
+[2026-04-30 16:38:01,105] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:38:01] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:38:01,112] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:38:01] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:39:38,950] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\security\\auth.py', reloading
+[2026-04-30 16:39:39,216] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:39:39,938] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:39:39,954] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:39:39,956] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:39:46,083] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\config\\settings.py', reloading
+[2026-04-30 16:39:46,281] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:39:47,006] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:39:47,022] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:39:47,024] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:45:54,489] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\notifications\\websocket.py', reloading
+[2026-04-30 16:45:54,647] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:45:55,361] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:45:55,375] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:45:55,378] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:46:00,483] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\notifications\\email_notify.py', reloading
+[2026-04-30 16:46:00,639] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:46:01,396] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:46:01,410] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:46:01,412] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:46:01,429] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:01] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:46:01,513] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:01] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:01,524] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:01] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:01,526] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:01] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:05,504] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\monitor\\alerts.py', reloading
+[2026-04-30 16:46:05,651] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:46:06,364] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:46:06,379] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:46:06,381] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:46:11,475] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\i18n\\translations.py', reloading
+[2026-04-30 16:46:11,624] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:46:12,354] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:46:12,368] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:46:12,371] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:46:17,472] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\scripts\\clean_invalid_txs.py', reloading
+[2026-04-30 16:46:17,654] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:46:18,407] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:46:18,423] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:46:18,425] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:46:18,443] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:18] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:46:18,529] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:18] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:18,532] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:18] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:18,534] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:18] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:44,335] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:46:44,363] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.154.16:5000
+[2026-04-30 16:46:44,363] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-30 16:46:44,363] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:46:45,074] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:46:45,088] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:46:45,089] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:46:49,288] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:49] "GET /apidocs/ HTTP/1.1" 200 -
+[2026-04-30 16:46:49,348] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:49] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:49,538] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:49] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:49,616] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:49] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:49,616] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:49] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:50,112] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:50] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:46:50,117] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:50] "GET /apispec_1.json HTTP/1.1" 200 -
+[2026-04-30 16:46:50,118] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:50] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:50,121] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:50] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:50,123] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:50] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:46:59,107] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:46:59] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:47:15,727] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-04-30 16:47:15,739] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:15] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:47:15,943] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:15] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:47:17,331] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:17] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:47:17,393] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:17] "GET /admin/api/logs HTTP/1.1" 200 -
+[2026-04-30 16:47:17,393] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:17] "GET /admin/api/config HTTP/1.1" 200 -
+[2026-04-30 16:47:17,403] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:17] "GET /admin/api/users HTTP/1.1" 200 -
+[2026-04-30 16:47:17,462] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:17] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:47:31,121] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:31] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:47:31,247] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:31] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:47:33,095] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:33] "[32mGET /mine HTTP/1.1[0m" 302 -
+[2026-04-30 16:47:33,109] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:33] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:47:34,164] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:34] "[32mGET /mine HTTP/1.1[0m" 302 -
+[2026-04-30 16:47:34,178] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:47:34] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:47:38,992] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:47:38] "[32mGET /mine HTTP/1.1[0m" 302 -
+[2026-04-30 16:47:39,000] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:47:39] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:47:57,089] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:47:57] "[32mPOST /transactions/new HTTP/1.1[0m" 302 -
+[2026-04-30 16:47:57,098] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:47:57] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:02,469] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:48:02] "[32mGET /mine HTTP/1.1[0m" 302 -
+[2026-04-30 16:48:02,479] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:48:02] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:08,547] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:08] "[33mGET /verify HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:10,912] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:10] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:11,050] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:11] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:12,283] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:12] "[32mGET /mine HTTP/1.1[0m" 302 -
+[2026-04-30 16:48:12,296] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:12] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:13,475] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:13] "[33mGET /verify HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:14,661] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:14] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:14,766] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:14] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:17,662] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:17] "GET /explorer HTTP/1.1" 200 -
+[2026-04-30 16:48:17,775] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:17] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:19,437] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:19] "GET /history HTTP/1.1" 200 -
+[2026-04-30 16:48:19,559] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:19] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:22,778] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:22] "GET /spa HTTP/1.1" 200 -
+[2026-04-30 16:48:22,888] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:22] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:25,944] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:25] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:25,950] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:25] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:26,782] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:26] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:48:26,827] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:26] "GET /admin/api/logs HTTP/1.1" 200 -
+[2026-04-30 16:48:26,830] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:26] "GET /admin/api/users HTTP/1.1" 200 -
+[2026-04-30 16:48:26,831] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:26] "GET /admin/api/config HTTP/1.1" 200 -
+[2026-04-30 16:48:41,041] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:41] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:41,049] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:41] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:42,220] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:42] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:42,228] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:42] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:48:43,944] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:43] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:44,186] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:44] "[33mGET /verify HTTP/1.1[0m" 404 -
+[2026-04-30 16:48:46,609] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:48:46] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:51:42,040] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:42] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:51:42,042] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:42] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:51:42,043] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:42] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:51:42,044] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:42] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:51:43,169] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:43] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:51:43,480] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:43] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:51:43,481] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:43] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:51:43,482] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:51:43] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:51:56,763] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\web\\routes.py', reloading
+[2026-04-30 16:51:56,931] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:51:57,647] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:51:57,662] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:51:57,664] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:52:07,828] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\web\\routes.py', reloading
+[2026-04-30 16:52:07,971] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:52:08,676] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:52:08,691] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:52:08,693] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:52:23,932] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\web\\routes.py', reloading
+[2026-04-30 16:52:24,103] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:52:24,824] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:52:24,837] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:52:24,839] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:53:00,394] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\core\\response.py', reloading
+[2026-04-30 16:53:00,591] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:53:01,304] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:53:01,318] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:53:01,321] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:53:13,516] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\web\\routes.py', reloading
+[2026-04-30 16:53:13,705] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:53:14,457] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:53:14,473] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:53:14,476] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:54:27,483] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:54:27,506] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.154.16:5000
+[2026-04-30 16:54:27,506] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-04-30 16:54:27,507] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:54:28,209] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:54:28,222] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:54:28,225] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:54:32,056] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "GET /apidocs/ HTTP/1.1" 200 -
+[2026-04-30 16:54:32,119] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+[2026-04-30 16:54:32,308] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:54:32,386] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:54:32,388] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:54:32,877] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "GET /apispec_1.json HTTP/1.1" 200 -
+[2026-04-30 16:54:32,973] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[33mGET /apidocs/chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:54:32,976] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:54:32,980] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:54:32,982] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:32] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+[2026-04-30 16:54:37,461] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:37] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:54:37,667] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:37] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:54:38,824] WARNING in auth: [AUTH_REJECT] User 2 (shuai) is not admin. Path: /verify
+[2026-04-30 16:54:38,824] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:38] "[31m[1mGET /verify HTTP/1.1[0m" 403 -
+[2026-04-30 16:54:45,663] INFO in routes: API_CALL | mine | GET | 2 | 127.0.0.1 | 302 | 62.97ms
+[2026-04-30 16:54:45,664] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:45] "[32mGET /mine HTTP/1.1[0m" 302 -
+[2026-04-30 16:54:45,675] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:45] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:54:45,791] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:45] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:54:47,768] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:47] "GET /spa HTTP/1.1" 200 -
+[2026-04-30 16:54:47,856] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:47] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:54:50,401] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:50] "GET /history HTTP/1.1" 200 -
+[2026-04-30 16:54:50,529] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:50] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:54:53,650] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:53] "GET /explorer HTTP/1.1" 200 -
+[2026-04-30 16:54:53,752] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:53] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:54:53,759] INFO in _internal: 127.0.0.1 - - [30/Apr/2026 16:54:53] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:54:57,026] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:54:57] "GET /explorer HTTP/1.1" 200 -
+[2026-04-30 16:54:57,157] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:54:57] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:54:57,166] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:54:57] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:54:59,553] INFO in routes: API_CALL | verify | GET | 1 | 10.1.154.16 | 200 | 2.55ms
+[2026-04-30 16:54:59,553] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:54:59] "GET /verify HTTP/1.1" 200 -
+[2026-04-30 16:55:01,232] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:01] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:55:02,310] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:02] "GET /spa HTTP/1.1" 200 -
+[2026-04-30 16:55:02,520] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:02] "GET / HTTP/1.1" 200 -
+[2026-04-30 16:55:04,114] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:04] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:55:07,128] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:07] "GET /admin HTTP/1.1" 200 -
+[2026-04-30 16:55:07,172] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:07] "GET /admin/api/config HTTP/1.1" 200 -
+[2026-04-30 16:55:07,174] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:07] "GET /admin/api/logs HTTP/1.1" 200 -
+[2026-04-30 16:55:07,182] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:55:07] "GET /admin/api/users HTTP/1.1" 200 -
+[2026-04-30 16:56:08,776] INFO in routes: API_CALL | verify | GET | 1 | 10.1.154.16 | 200 | 1.27ms
+[2026-04-30 16:56:08,777] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:56:08] "GET /verify HTTP/1.1" 200 -
+[2026-04-30 16:56:10,054] INFO in _internal: 10.1.154.16 - - [30/Apr/2026 16:56:10] "[33mGET /chrome-extension://jlpcnoohcpfgpbalhlggdhjocgnlgafn/assets/main-world.ts-4ed993c7.js HTTP/1.1[0m" 404 -
+[2026-04-30 16:58:32,871] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\security\\auth.py', reloading
+[2026-04-30 16:58:33,051] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:58:33,817] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:58:33,833] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:58:33,836] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:58:39,952] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\db\\models.py', reloading
+[2026-04-30 16:58:40,117] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:58:40,847] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)
+[2026-04-30 16:58:40,871] WARNING in _internal:  * Debugger is active!
+[2026-04-30 16:58:40,873] INFO in _internal:  * Debugger PIN: 115-487-929
+[2026-04-30 16:58:45,978] INFO in _internal:  * Detected change in 'C:\\Users\\32777\\Desktop\\区块链\\work\\shuai_coin\\db\\models.py', reloading
+[2026-04-30 16:58:46,217] INFO in _internal:  * Restarting with stat
+[2026-04-30 16:58:46,961] INFO in logging: 🚀 Logging system initialized (UTF-8 Mode enabled)

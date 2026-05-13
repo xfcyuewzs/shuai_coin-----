@@ -1,0 +1,6 @@
+# 敏感词库 (UTF-8, 每行一个)
+illegal_content
+malware_link
+fake_news
+scam_token
+forbidden_word
